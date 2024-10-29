@@ -1,0 +1,13 @@
+prefix=/Users/srinidhisg/development/siet-hackathon/siet-hackathon/backend/scripts/venv
+exec_prefix=/Users/srinidhisg/development/siet-hackathon/siet-hackathon/backend/scripts/venv
+libdir=/Users/srinidhisg/development/siet-hackathon/siet-hackathon/backend/scripts/venv/lib
+sharedlibdir=/Users/srinidhisg/development/siet-hackathon/siet-hackathon/backend/scripts/venv/lib
+includedir=/Users/srinidhisg/development/siet-hackathon/siet-hackathon/backend/scripts/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
